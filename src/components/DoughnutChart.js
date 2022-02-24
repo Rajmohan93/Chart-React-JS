@@ -1,4 +1,5 @@
 import React from 'react';
+
 import {Doughnut} from 'react-chartjs-2';
 
 const DoughnutChart = () => {
@@ -29,6 +30,9 @@ const DoughnutChart = () => {
                                 ticks: {
                                     fontColor: 'red',
                                     fontSize: 16
+                                },
+                                gridLines: {
+                                    display: false
                                 }
                             }],
                             yAxes: [{
@@ -37,6 +41,9 @@ const DoughnutChart = () => {
                                     max: 10,
                                     fontColor: 'red',
                                     fontSize: 16
+                                },
+                                gridLines: {
+                                    display: false
                                 }
                             }]
                         }

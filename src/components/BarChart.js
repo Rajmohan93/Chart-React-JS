@@ -1,6 +1,8 @@
 import React from 'react';
 import {Bar} from 'react-chartjs-2';
 
+import data from "../assets/MOCK_DATA.json";
+
 const BarChart = () => {
     return (
         <div>
